@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/editText1"
+        android:layout_width="249dp"
+        android:layout_height="38dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Enter Ingredients"
+        android:inputType="textPersonName"
+        android:scrollbars="horizontal"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/goButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="11dp"
+        android:text="Search" />
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="318dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:text="Title"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+
+
+
+    <TextView
+        android:scrollbars="vertical"
+        android:maxLines="200"
+        android:id="@+id/editText3"
+        android:layout_width="209dp"
+        android:layout_height="265dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="177dp"
+        android:text="Instruction Window" />
+
+
+    <TextView
+        android:id="@+id/editText4"
+        android:layout_width="132dp"
+        android:layout_height="246dp"
+        android:layout_alignTop="@+id/editText3"
+        android:layout_alignEnd="@+id/resetButton"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="-3dp"
+        android:text="Recipe Attributes" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/goButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="19dp"
+        android:text="RESET" />
+
+    <TextView
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="66dp"
+        android:text="editText5"
+        android:textColor="@color/white" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/goButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="41dp"
+        app:srcCompat="?android:attr/actionModeWebSearchDrawable" />
+
+</RelativeLayout>

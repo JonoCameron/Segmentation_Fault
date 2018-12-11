@@ -1,0 +1,1 @@
+include ':app', ':commons-codec-1.10', ':commons-logging-1.2', ':fluent-hc-4.5.6', ':httpclient-4.5.6', ':httpclient-cache-4.5.6', ':httpclient-win-4.5.6', ':httpcore-4.4.10', ':httpmime-4.5.6', ':jna-4.4.0', ':jna-platform-4.4.0', ':json-20140107', ':unirest-java-1.4.7', ':volley', ':com.android.volley-2015.05.28'
